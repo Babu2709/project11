@@ -1,0 +1,58 @@
+<{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>babu</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+    <style>
+        div
+        {
+            width: 100%;
+            height: 500px;
+        }
+        div>img
+        {
+           height: 200px; 
+           width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1 class="btn btn-danger">mdb4</h1>
+  
+    <div class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="{% static 'images/nagendra.jpg' %}" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="{% static 'images/jyothi.jpg' %}" alt="">
+            </div>
+            <div class="carousel-item activate">
+                <img src="{% static 'images/vedha.jpg' %}" alt="">
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </div>
+    </center>
+
+
+
+
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/propper.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+</body>
+</html>
